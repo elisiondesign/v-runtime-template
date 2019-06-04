@@ -32,6 +32,16 @@ export default {
       const { components = {}, computed = {}, methods = {} } = $options;
 
       let passthrough = {$data:{}, $props:{}, $options:{}, components:{}, computed:{}, methods:{}};
+      
+      if (typeof this.$options.methods === "undefined") {
+        this.$options.methods = {};
+      }
+      if (typeof this.$options.computed === "undefined") {
+        this.$options.computed = {};
+      }
+      if (typeof this.$options.components === "undefined") {
+        this.$options.components = {};
+      }
 
       //build new objects by removing keys if already exists (e.g. created by mixins)
       Object.keys($data).forEach(e => {if(typeof this.$data[e]==="undefined") passthrough.$data[e] = $data[e];} );
