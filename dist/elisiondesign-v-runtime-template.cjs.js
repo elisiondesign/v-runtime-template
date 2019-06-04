@@ -1,6 +1,6 @@
 /**
- * @elision/v-runtime-template v1.6.2
- * (c) 2019 Alex J <alexjovermorales@gmail.com>
+ * @elisiondesign/v-runtime-template v1.6.3
+ * (c) 2019 elision.design <info@elision.design>
  * @license MIT
  */
 

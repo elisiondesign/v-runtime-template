@@ -1,8 +1,14 @@
 /**
- * @elision/v-runtime-template v1.6.2
- * (c) 2019 Alex J <alexjovermorales@gmail.com>
+ * @elisiondesign/v-runtime-template v1.6.3
+ * (c) 2019 elision.design <info@elision.design>
  * @license MIT
  */
+
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global['@elisiondesign/vRuntimeTemplate'] = factory());
+}(this, (function () { 'use strict';
 
 var defineDescriptor = function (src, dest, name) {
   if (!dest.hasOwnProperty(name)) {
@@ -83,4 +89,6 @@ var index = {
   }
 };
 
-export default index;
+return index;
+
+})));

@@ -1,8 +1,8 @@
 {
-  "name": "@elision/v-runtime-template",
+  "name": "@elisiondesign/v-runtime-template",
   "version": "1.6.3",
   "description": "Create Vue components by compiling templates on the fly",
-  "main": "dist/elision-v-runtime-template.cjs.js",
+  "main": "dist/elisiondesign-v-runtime-template.cjs.js",
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "rollit index.js",
@@ -19,8 +19,8 @@
     "template"
   ],
   "author": {
-    "name": "Alex J",
-    "email": "alexjovermorales@gmail.com"
+    "name": "elision.design",
+    "email": "info@elision.design"
   },
   "license": "MIT",
   "devDependencies": {
@@ -31,7 +31,7 @@
     "url": "https://github.com/elisiondesign/v-runtime-template/issues"
   },
   "homepage": "https://github.com/elisiondesign/v-runtime-template#readme",
-  "module": "dist/elision-v-runtime-template.es.js",
-  "unpkg": "dist/elision-v-runtime-template.js",
-  "browser": "dist/elision-v-runtime-template.es.js"
+  "module": "dist/elisiondesign-v-runtime-template.es.js",
+  "unpkg": "dist/elisiondesign-v-runtime-template.js",
+  "browser": "dist/elisiondesign-v-runtime-template.es.js"
 }
